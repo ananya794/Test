@@ -1,0 +1,29 @@
+import collections
+
+lst = [1, 2, 3]
+lst.append(4)       # Add element
+lst.remove(2)       # Remove element
+print("List:", lst)
+
+tup = (1, 2, 3)
+print("Tuple:", tup)
+
+s = {1, 2, 3}
+s.add(4)            # Add element
+s.remove(3)         # Remove element
+print("Set:", s)
+
+d = {'a': 1, 'b': 2}
+d['c'] = 3          # Add element
+del d['b']          # Remove element
+print("Dictionary:", d)
+
+stack = [1, 2, 3]
+stack.append(4)     # Push
+stack.pop()         # Pop
+print("Stack:", stack)
+
+queue = collections.deque([1, 2, 3])
+queue.append(4)     # Enqueue
+queue.popleft()     # Dequeue
+print("Queue:", queue)
